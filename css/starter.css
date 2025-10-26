@@ -1,0 +1,16 @@
+
+body{background-color: lightgrey;}
+h1, h2{font-size: 14px}
+img{border:2px solid black}
+h3::before {
+    content: url("../images/small-pumpkins.png");
+    vertical-align: middle; /* keeps the image aligned with text */
+    }
+div{
+    border: 2px solid;
+    margin: 0 0 10px 0;
+}
+h3{
+    margin:0;
+    background:white
+}
